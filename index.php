@@ -30,8 +30,25 @@
 		switch ($partes_ruta[0+$cambio_local_remoto]) {
 			case 'inicio':
 				$ruta_elegida='pages/inicio.php';
-				$seccion="inicio";
-				break;	
+				break;
+			case 'nosotros':
+				$ruta_elegida='pages/nosotros.php';
+				break;
+			case 'productos':
+				$ruta_elegida='pages/productos.php';
+				break;
+			case 'servicios':
+				$ruta_elegida='pages/servicios.php';
+				break;
+			case 'ozono':
+				$ruta_elegida='pages/ozono.php';
+				break;
+			case 'contacto':
+				$ruta_elegida='pages/contacto.php';
+				break;
+			case 'terminos_condiciones':
+				$ruta_elegida='pages/terminos_condiciones.php';
+				break;
         }
     }
 	include $ruta_elegida;

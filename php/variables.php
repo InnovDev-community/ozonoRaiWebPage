@@ -4,6 +4,12 @@
 
 	//Variables de las rutas (Paginas, etilos etc)
 	define('RUTA_INICIO', SERVIDOR.'/inicio/');
+	define('RUTA_NOSOTROS', SERVIDOR.'/nosotros/');
+	define('RUTA_PRODUCTOS', SERVIDOR.'/productos/');
+	define('RUTA_SERVICIOS', SERVIDOR.'/servicios/');
+	define('RUTA_OZONO', SERVIDOR.'/ozono/');
+	define('RUTA_CONTACTO', SERVIDOR.'/contacto/');
+	define('RUTA_TERMINOS_CONDICIONES', SERVIDOR.'/terminos_condiciones/');
 
 	//Variables de recursos
 	define('RUTA_CSS', SERVIDOR.'/css/');
