@@ -23,9 +23,11 @@
 	/*Analisis*/
 	/********************/
 	if(count($partes_ruta)==0+$cambio_local_remoto){
+
 		//Cuando no pedimos nada { ozonorai.net } 
 		$ruta_elegida='pages/inicio.php';
 	}else if(count($partes_ruta)==1+$cambio_local_remoto){
+
 		//Cuando pedimos una seccion { ozonorai.net/inicio/ }
 		switch ($partes_ruta[0+$cambio_local_remoto]) {
 			case 'inicio':
@@ -48,6 +50,14 @@
 				break;
 			case 'terminos_condiciones':
 				$ruta_elegida='pages/terminos_condiciones.php';
+				break;
+        }
+	}else if(count($partes_ruta)==3+$cambio_local_remoto){
+
+		//Cuando pedimos una seccion { ozonorai.net/productos/01/modelo_gota }
+		switch ($partes_ruta[0+$cambio_local_remoto]) {
+			case 'productos':
+				$ruta_elegida='pages/producto.php';
 				break;
         }
     }
