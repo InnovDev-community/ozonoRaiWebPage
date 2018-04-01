@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <?php include_once "components/comp.meta.php" ?>
-    <title>Nosotros - OzonoRai</title>
+    <title>Contacto - OzonoRai</title>
 </head>
 <body>
     <main class="con-principal">
