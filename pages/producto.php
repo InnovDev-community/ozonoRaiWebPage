@@ -3,6 +3,16 @@
 <head>
     <?php include_once "components/comp.meta.php" ?>
     <title>Productos - OzonoRai</title>
+    <style>
+        /* Codigo provicional */
+        #contenido > div{
+            display: none;
+        }
+
+        .menu__item-selected{
+            background: red;
+        }
+    </style>
 </head>
 <body>
     <main class="con-principal">
@@ -14,9 +24,20 @@
                     <div class="producto__detalles">
                         <h1>Modelo Gota en Acero Inoxidable</h1>
                         <div>
-                            Hecho en Acero Inoxidable (18-8)
-                            Cañon Fijo.
-                            Medidas: 31 cm. x 21 cm. x 14cm.
+                            <header id="menu">
+                                <a class="menu__item" href="#" title="Descripción" data-seccion="contenido__descripcion">Descripción</a>
+                                <a class="menu__item" href="#" title="Vídeo" data-seccion="contenido__video">Vídeo</a>
+                            </header>
+                            <div id="contenido">
+                                <div id="contenido__descripcion">
+                                    <p>Hecho en Acero Inoxidable (18-8)</p>
+                                    <p>Cañon Fijo.</p>
+                                    <p>Medidas: 31 cm. x 21 cm. x 14cm.</p>
+                                </div>
+                                <div id="contenido__video">
+                                    Video!!!
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -41,5 +62,26 @@
         </section>
         <?php include_once "components/comp.footer.php" ?>
     </main>
+    <script>
+
+        //Por defecto
+        $("#menu > a:nth-child(1)").addClass("menu__item-selected"); //Seccion por defecto
+        $("#contenido__descripcion").fadeIn(); //Seccion por defecto
+
+        //---
+        $("#menu a").on("click",function(event){
+            event.preventDefault();
+            
+            //Reiniciamos todo
+            $("#contenido div").hide(); 
+            $("#menu a").removeClass("menu__item-selected"); 
+
+            console.log($("#menu a"))
+
+            let nSeccion = $(this).attr("data-seccion");
+            $(this).addClass("menu__item-selected"); //Resaltamos la opcion del menu elegida
+            $("#contenido > #" + nSeccion).fadeIn(); //Mostramos la seccion elegida
+        });
+    </script>
 </body>
 </html>
