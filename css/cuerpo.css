@@ -1,13 +1,21 @@
 .con-principal {
+    width: 100%;
+    position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.cuerpo {
+
+
+/* .cuerpo {
     top:50px;
     position: absolute;
     display: flex;
+    width: 98%;
+    background: white;
+    padding: 10px;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: var(--tiny-size);
-}
+    font-size: var(--medium-size);
+    box-shadow: 0 0 10px black;
+}  */
