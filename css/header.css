@@ -1,0 +1,79 @@
+.cabezera {
+    height: 50px;
+    background-color: var(--secondary-color); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.logo {
+    display: flex;
+    margin: auto;
+    height: 45px;
+    padding: 5px;
+}
+
+.con-lista-secciones {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-menu {
+    color: var(--primary-color); 
+    font-size: var(--big-size);
+    cursor: pointer;
+}
+
+.lista-secciones {
+    display: none;
+    position: absolute;
+    top:45px;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.lista-secciones__item {
+    display: flex;
+    height: 50px;
+    background: var(--primary-color);
+    opacity: 0.8;
+    border-bottom: 1px solid gray;
+    font-size: var(--medium-size);
+    
+}
+
+.lista-secciones__item a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* width: 100%;
+    height: 100%; */
+    text-decoration: none;
+    padding-left: 20px;
+    color:white;
+}
+
+.lista-secciones__item a img{
+    display: none;
+    align-items: center;
+}
+
+.lista-secciones__item a p{
+    height: var(--item-height);
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+a p span{
+    padding-left: 8px;
+    font-weight: bold;
+}
