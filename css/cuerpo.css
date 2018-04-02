@@ -7,8 +7,8 @@
 }
 
 
-/* .cuerpo {
-    top:50px;
+.cuerpo {
+    /* top:50px;
     position: absolute;
     display: flex;
     width: 98%;
@@ -16,6 +16,18 @@
     padding: 10px;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: var(--medium-size);
+    font-size: var(--medium-size); */
+    margin-top:50px;
+    background: white;
     box-shadow: 0 0 10px black;
-}  */
+    width: 90%;
+    max-width: 950px;
+    
+} 
+
+
+@media(min-width:920px) {
+    .cuerpo {
+        margin-top:90px;
+    }
+}

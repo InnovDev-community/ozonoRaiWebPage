@@ -1,45 +1,46 @@
 @keyframes slidy {
-    0% { left: 100%; }
+    
+    /* 0% { left: -200%; }
+    10% { left: -200%; }
+    20% { left: -200%; }
+    35% { left: -200%; }
+    55% { left: -200%; }
+    65% { left: -200%; }
+    80% { left: -200%; }
+    90% { left: -200%; }
+    100% { left: -200%; } */
+
+    0% { left: 0%; }
     10% { left: 0%; }
     20% { left: 0%; }
-    30% { left: 0%; }
-    40% { left: 0%; }
-    55% { left: -100%; }
+    35% { left: -100%; }
     55% { left: -100%; }
     65% { left: -100%; }
-    75% { left: -100%; }
+    80% { left: -200%; }
     90% { left: -200%; }
-    100% { left: -200%; }
-    /* 0% { left: 100%; }
-    20% { left: 0%; }
-    25% { left: 0%; }
-    45% { left: -100%; }
-    50% { left: -100%; }
-    70% { left: -200%; }
-    75% { left: -200%; }
-    95% { left: 100%; }
-    100% { left: 100%; } */
+    100% { left: 0%; }
+
 }
 
 .inicio {
-    width: 90%;
+    /* width: 90%; */
     overflow: hidden; 
 }
 
 .slider {
     position: relative;
-    width: 300%;
+    width: 300%; /* el 100% multiplicado por la cantidad de imagenes */
     font-size: 0;
-    animation: 30s slidy infinite;
+    animation: 20s slidy infinite;
     margin:0;
-    margin-top:50px;
 }
 
-.slider .inicio__slide {
-    width: 33.3%;
+.inicio__slide {
+    width: calc(100% / 3); /* el 100% dividido por la cantidad de imagenes */
     height: auto;
     display: inline-block; 
     position: inherit; 
+    top: 0;
     margin: 0;
 }
 
@@ -48,16 +49,53 @@
     height: auto; 
 }
 
-.slider .inicio__slide .slide__descripcion {
+.slide__descripcion {
+    display: block;
     position: absolute;
     bottom: 0;
-    background: rgba(0,0,0,0.4);
     color: #fff;
     width: 100%;
     font-size: var(--small-size);
-    padding: .6rem; 
+    background: rgba(0,0,0,0.4);
+    padding: .6rem;
+    height: 100%;
 }
 
-.slide__imagen-producto {
-    max-width:50px;
+.contenedor-slider {
+    width: 100%;
 }
+
+.slide-des__title {
+    font-size: var(--medium-size);
+    font-weight: bold;
+}
+
+.slide__con_productos {
+    height: 100%;
+}
+
+[class^="slide__imagen-producto"] {
+    /* display: flex; */
+    max-width:60px;
+}
+
+/* .slide__imagen-producto-1 {
+    bottom:10%;
+}
+
+.slide__imagen-producto-2 {
+    bottom:10%;
+}
+
+.slide__imagen-producto-3 {
+    bottom:10%;
+}
+
+.slide__imagen-producto-4 {
+    bottom:10%;
+}
+
+.slide__imagen-producto-5 {
+    bottom:10%;
+} */
+

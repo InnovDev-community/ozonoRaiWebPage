@@ -3,11 +3,18 @@
 }
 
 body {
-    background-image:url("../img/background.jpg");
+    background-color: var(--primary-color);
     
     font-family: sans-serif;
     /* background-color:gray; */
     top:0;
     background-repeat: no-repeat;
     background-size: cover; 
+    min-height: 100vh;
+}
+
+@media(min-width:920px) {
+    body {
+        background-image:url("../img/background.jpg");
+    }
 }
