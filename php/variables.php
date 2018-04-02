@@ -1,5 +1,6 @@
 <?php 
-	define('SERVIDOR','http://localhost/OzonoRai');
+	//define('SERVIDOR','http://localhost/OzonoRai');
+	define('SERVIDOR','http://localhost/OzonoRaiWebPage');
 	//define('SERVIDOR','http://virtualbamboo.innovdevelopers.com/');
 
 	//Variables de las rutas (Paginas, etilos etc)

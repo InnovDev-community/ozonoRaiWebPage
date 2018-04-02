@@ -1,0 +1,12 @@
+:root {
+    --primary-color:#245689;
+    --secondary-color:#fff;
+    --accent-color:#00ccff;
+    --text-primary-color:#fff;
+    --text-secondary-color:#fff;
+    --big-size: 24px;
+    --medium-size: 18px;
+    --small-size: 15px;
+    --tiny-size: 12px;
+    --item-height: 30px;
+}
