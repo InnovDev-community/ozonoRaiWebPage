@@ -4,12 +4,10 @@
     flex-wrap: wrap;
 }
 .cuerpo {
-    top:90px;
+    top:50px;
     position: absolute;
-    min-width: 920px;
-    width: 80%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: var(--tiny-size);
-    box-shadow: 2px 2px 10px #000;
 }

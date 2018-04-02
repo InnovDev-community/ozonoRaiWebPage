@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <?php include_once "components/comp.meta.php" ?>
+    <link rel="stylesheet" href="<?php echo RUTA_CSS."servicios.css" ?>">
     <title>Servicios - OzonoRai</title>
 </head>
 <body>

@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <?php include_once "components/comp.meta.php" ?>
+    <link rel="stylesheet" href="<?php echo RUTA_CSS."ozono.css" ?>">
     <title>Ozono y salud - OzonoRai</title>
 </head>
 <body>

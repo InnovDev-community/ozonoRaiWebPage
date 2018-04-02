@@ -2,12 +2,13 @@
 <html lang="es">
 <head>
     <?php include_once "components/comp.meta.php" ?>
+    <link rel="stylesheet" href="<?php echo RUTA_CSS."inicio.css" ?>">
     <title>Bienvenido - OzonoRai</title>
 </head>
 <body>
     <main class="con-principal">
         <?php include_once "components/comp.header.php" ?>
-        <!-- <section class="cuerpo inicio">
+        <section class="cuerpo inicio">
             <div class="inicio__slide">
                 <img class="slide__imagen" src="<?php echo RUTA_IMG."inicio/wall_vegetables.png" ?>" alt="Limpiez de verduras">
                 <div class="slide__descripcion">
