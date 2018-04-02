@@ -1,10 +1,6 @@
         <header class="cabezera">
             <a href="<?php echo RUTA_INICIO ?>">
-               <!-- <img class="logo" src="<?php echo RUTA_IMG."logo.png" ?>" alt="Logo - OzonoRai"> -->
-               <picture class="logo" >
-                    <source srcset="<?php echo RUTA_IMG."logo.png" ?>" media="(min-width: 1024px)"> 
-                    <img src="<?php echo RUTA_IMG."head_logo.svg" ?>" alt="Logo - OzonoRai">
-                </picture>               
+               <img class="logo" src="<?php echo RUTA_IMG."logo.png" ?>" alt="Logo - OzonoRai">        
             </a>
             <nav class="con-lista-secciones">
                 <div id="toggle-menu"><span class="icon-menu"></span></div>
