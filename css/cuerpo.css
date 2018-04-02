@@ -1,0 +1,15 @@
+.con-principal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cuerpo {
+    top:90px;
+    position: absolute;
+    min-width: 920px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: var(--tiny-size);
+    box-shadow: 2px 2px 10px #000;
+}
