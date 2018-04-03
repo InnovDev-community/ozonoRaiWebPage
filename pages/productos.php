@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
     require_once('../php/Connection.php');
     require_once('../php/models/ProductModel.php');
