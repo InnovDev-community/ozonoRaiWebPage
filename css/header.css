@@ -1,8 +1,9 @@
 .cabezera {
-    height: 45px;
+    height: 100px;
     background-color: var(--secondary-color); 
     display: flex;
-    justify-content: space-between;
+    flex-wrap:wrap;
+    justify-content: center;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -13,16 +14,16 @@
 
 
 .logo {
-    display: flex;
     margin: auto;
-    height: 45px;
-    padding: 5px;
+    height: 50px;
+    flex: auto;
     filter: drop-shadow(1px 1px 0px  #000);
 }
 
 .con-lista-secciones {
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .icon-menu {
@@ -34,7 +35,7 @@
 .lista-secciones {
     display: none;
     position: absolute;
-    top:45px;
+    top:100px;
     list-style: none;
     padding-left: 0;
     margin-top: 0;

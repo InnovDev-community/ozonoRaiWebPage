@@ -24,7 +24,9 @@
 
 .inicio {
     /* width: 90%; */
-    overflow: hidden; 
+    overflow-x: hidden;
+    height: calc(100vh - 133px);
+    background-color: var(--primary-color);
 }
 
 .slider {
@@ -55,10 +57,10 @@
     bottom: 0;
     color: #fff;
     width: 100%;
-    font-size: var(--small-size);
-    background: rgba(0,0,0,0.4);
-    padding: .6rem;
+    font-size: var(--medium-size);
+    padding: 20px;
     height: 100%;
+    transform: translateY(100%);
 }
 
 .contenedor-slider {
@@ -66,7 +68,7 @@
 }
 
 .slide-des__title {
-    font-size: var(--medium-size);
+    font-size: var(--big-size);
     font-weight: bold;
 }
 

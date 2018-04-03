@@ -1,11 +1,20 @@
 @media(min-width:640px){
     .slide__descripcion {
         height: 40%;
+        transform: translateY(0%);
+        background: rgba(0,0,0,0.4);
     }
 
     .slide__descripcion p {
         margin-top:12px;
     }
+
+    .inicio {
+        /* width: 90%; */
+        overflow: hidden;
+        height: auto;
+    }
+    
 }
 
 @media(min-width:920px){

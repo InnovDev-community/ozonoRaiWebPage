@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     align-self: flex-end;
-    width: 90%;
+    width: 100%;
     max-width: 950px;
     background-color: var(--secondary-color);
     justify-content: center;
@@ -30,3 +30,5 @@
     text-decoration: none;
     color: black;
 }
+
+
