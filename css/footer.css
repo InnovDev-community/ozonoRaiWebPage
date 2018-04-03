@@ -15,7 +15,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
-    
+    align-items: center;
 }
 
 .lista-footer__item{

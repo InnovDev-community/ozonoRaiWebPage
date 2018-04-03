@@ -1,0 +1,18 @@
+.productos {
+    background-color: var(--primary-color);
+    padding: 10px;
+    color: var(--secondary-color);
+    /* min-height: calc(100vh - 133px); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.productos__title {
+    width: 100%;
+}
+
+.producto, .otro_producto, .informacion{
+    text-decoration: none;
+    color: var(--secondary-color);
+}

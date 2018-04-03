@@ -1,0 +1,28 @@
+@media(min-width:640px) {
+    .footer {
+        box-shadow: 0 0 0 transparent;
+        border-top-color: rgba(200, 200, 200, .8);
+        border-width: 1px;
+    }
+}
+
+@media(min-width:920px){
+    .footer {
+        height: 40px;
+        max-width: 920px;
+    }
+    .lista-footer__item{
+        font-size: var(--small-size);
+    }
+}
+
+@media(min-width:1600px){
+    .footer {
+        height: 50px;
+        max-width: 1500px;
+    }
+
+    .lista-footer__item{
+        font-size: var(--medium-size);
+    }
+}
