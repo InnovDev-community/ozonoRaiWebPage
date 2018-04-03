@@ -21,13 +21,8 @@
     background: white;
     /* box-shadow: 0 0 10px black; */
     width: 100%;
-    max-width: 950px;
+    max-width: 920px;
     
 } 
 
 
-@media(min-width:920px) {
-    .cuerpo {
-        margin-top:90px;
-    }
-}

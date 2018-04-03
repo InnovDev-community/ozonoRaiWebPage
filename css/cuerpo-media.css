@@ -1,0 +1,13 @@
+@media(min-width:920px) {
+    .cuerpo {
+        margin-top:90px;
+    }
+}
+
+@media(min-width:1600px) {
+    .cuerpo {
+        margin-top:150px;
+        max-width: 1500px;
+    }
+
+}
