@@ -30,18 +30,18 @@
                 <?php
 
                     if(isset($_POST['btnEnviar'])){
-                        $emailD= "ventas@ozonorai.net";
-                        $asunto= "Consulta OzonoRai";
+                        // $emailD= "ventas@ozonorai.net";
+                        // $asunto= "Consulta OzonoRai";
                         $mensaje= $_POST['txtMensaje']; //Texto del mensaje
                         $nombreE= $_POST['txtNombre']; //Nombre del emisor
                         $telefonoE=$_POST['txtTelefono']; //Telefono del emisor
                         $emailE= $_POST['txtEmail']; //Email del emisor
-                        
-                        $cabecera = "Content-type: text/html; charset: utf-8";
-                        
-                        $texto = '<b>Nombre:</b> '.$nombreE.'<br><b>Correo:</b> '.$emailE.'<br><b>Telefono:</b> '.$telefonoE.'<br><b>Mensaje:</b> '.$mensaje;	
 
-                        $envio= mail($emailD,$asunto,$texto,$cabecera); //funcion mail
+                        $cabecera = "Content-type: text/html; charset: utf-8";
+
+                        $texto = '<b>Nombre:</b> '.$nombreE.'<br><b>Correo:</b> '.$emailE.'<br><b>Telefono:</b> '.$telefonoE.'<br><b>Mensaje:</b> '.$mensaje;
+
+                        $envio= mail(EMAIL, ASUNTO_EMAIL, $texto, $cabecera); //funcion mail
 
 
                             if($envio){

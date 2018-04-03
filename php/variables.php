@@ -1,4 +1,4 @@
-<?php 
+<?php
 	//define('SERVIDOR','http://localhost/OzonoRai');
 	define('SERVIDOR','http://localhost/OzonoRaiWebPage');
 	//define('SERVIDOR','http://innovdevelopers.com/pruebaGITHUB');
@@ -17,4 +17,14 @@
 	define('RUTA_JS', SERVIDOR.'/js/');
 	define('RUTA_PHP', SERVIDOR.'/php/');
 	define('RUTA_IMG', SERVIDOR.'/img/');
+
+	//Variables de BD
+	define('HOST', 'localhost');
+	define('USER', 'root');
+	define('PASSWORD', '');
+	define('DATA_BASE', 'ozono');
+
+	//Variables correo
+	define('EMAIL', 'ventas@ozonorai.net');
+	define('ASUNTO_EMAIL', 'Consulta OzonoRai');
 ?>
