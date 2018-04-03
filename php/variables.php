@@ -1,7 +1,7 @@
-<?php
+<?php 
 	//define('SERVIDOR','http://localhost/OzonoRai');
 	define('SERVIDOR','http://localhost/OzonoRaiWebPage');
-	//define('SERVIDOR','http://virtualbamboo.innovdevelopers.com/');
+	//define('SERVIDOR','http://innovdevelopers.com/pruebaGITHUB');
 
 	//Variables de las rutas (Paginas, etilos etc)
 	define('RUTA_INICIO', SERVIDOR.'/inicio/');
@@ -17,15 +17,4 @@
 	define('RUTA_JS', SERVIDOR.'/js/');
 	define('RUTA_PHP', SERVIDOR.'/php/');
 	define('RUTA_IMG', SERVIDOR.'/img/');
-
-	//Variables de php
-	define('RUTA_CONTROLLERS', RUTA_PHP . 'controllers/');
-	define('RUTA_MODELS', RUTA_PHP . 'models/');
-	define('RUTA_VIEWS', RUTA_PHP . 'views/');
-
-	//Variables para la base de datos
-	define('HOST', 'localhost');
-	define('USER', 'root');
-	define('PASSWORD', '');
-	define('DATA_BASE', 'ozono');
 ?>
