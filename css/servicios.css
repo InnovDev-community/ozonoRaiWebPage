@@ -1,0 +1,17 @@
+.servicios {
+    background-color: var(--primary-color);
+    padding: 10px;
+    color: var(--secondary-color);
+    /* min-height: calc(100vh - 133px); */
+}
+
+.servicios__title {
+    text-shadow: 1px 1px 1px #000;
+}
+
+.servicios__lista {
+    font-size: var(--medium-size);
+    line-height: 1.5;
+    list-style: none;
+    padding-left: 10px;
+}

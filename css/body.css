@@ -14,6 +14,12 @@ body {
     min-height: 100vh;
 }
 
+@media(min-width:640px) {
+    body {
+        background-color: var(--secondary-color);
+    }
+}
+
 @media(min-width:920px) {
     body {
         background-image:url("../img/background.jpg");

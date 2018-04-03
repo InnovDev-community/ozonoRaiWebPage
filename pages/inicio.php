@@ -20,7 +20,7 @@
                     </div>
                 </figure>           
                 <figure class="inicio__slide">
-                    <img class="slide__imagen" src="<?php echo RUTA_IMG."inicio/wall_agua.png" ?>" alt="El agua es salud">
+                    <img class="slide__imagen prueba" src="<?php echo RUTA_IMG."inicio/wall_agua.png" ?>" alt="El agua es salud">
                     <div class="slide__descripcion">
                         <p class="slide-des__title">Uso medicinal</p>
                         <p class="slide-des__contenido">El agua ozonizada concentrada representa una gran ayuda en el tratamiento de gastritis, ya que reduce la acidez estomacal y tonifica las paredes estomacales por su defecto cicatrizante.

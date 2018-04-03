@@ -8,21 +8,11 @@
 
 
 .cuerpo {
-    /* top:50px;
-    position: absolute;
-    display: flex;
-    width: 98%;
-    background: white;
-    padding: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: var(--medium-size); */
     margin-top:100px;
     background: white;
-    /* box-shadow: 0 0 10px black; */
     width: 100%;
     max-width: 920px;
-    
+    min-height: calc(100vh - 133px);
 } 
 
 

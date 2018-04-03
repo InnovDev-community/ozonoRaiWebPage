@@ -13,7 +13,7 @@
                 <img src="<?php echo RUTA_IMG."logo.png" ?>" alt="">
             </div>   
             <div class="nosotros__descripcion">
-                <h1 class="nostros-des__title"><span>Ozonorai -</span> Perù</h1>
+                <h1 class="nostros-des__title"><span>Ozonorai -</span> Perú</h1>
                 <article class="nostros-des__contenido">
                     <section class="contenido__col-izq">
                         <p class="contenido__parrafo">Empresa Peruana dedicada a la distribuciòn y comercialización de purificadores de agua y aire 
