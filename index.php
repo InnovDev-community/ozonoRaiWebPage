@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include_once 'php/variables.php';
 
 	//Variables
@@ -24,7 +24,7 @@
 	/********************/
 	if(count($partes_ruta)==0+$cambio_local_remoto){
 
-		//Cuando no pedimos nada { ozonorai.net } 
+		//Cuando no pedimos nada { ozonorai.net }
 		$ruta_elegida='pages/inicio.php';
 	}else if(count($partes_ruta)==1+$cambio_local_remoto){
 
