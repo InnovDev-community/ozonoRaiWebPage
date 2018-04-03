@@ -1,6 +1,8 @@
-/* @import url(normalize.css); */
+@import url(normalize.css);
 @import url(variables.css);
 @import url(body.css);
 @import url(header.css);
 @import url(header-media.css);
 @import url(cuerpo.css);
+@import url(cuerpo-media.css);
+@import url(footer.css);

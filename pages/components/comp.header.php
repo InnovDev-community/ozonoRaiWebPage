@@ -1,6 +1,6 @@
         <header class="cabezera">
             <a href="<?php echo RUTA_INICIO ?>">
-               <img class="logo" src="<?php echo RUTA_IMG."logo.png" ?>" alt="Logo - OzonoRai">
+               <img class="logo" src="<?php echo RUTA_IMG."logo.png" ?>" alt="Logo - OzonoRai">        
             </a>
             <nav class="con-lista-secciones">
                 <div id="toggle-menu"><span class="icon-menu"></span></div>
@@ -9,7 +9,7 @@
                         <p>
                             SOBRE <span> NOSOTROS</span>
                         </p>
-                        <img class="imagen-item-1" src="<?php echo RUTA_IMG."head_logo.png" ?>" alt="Logo - OzonoRai">
+                        <img class="imagen-item-1" src="<?php echo RUTA_IMG."head_logo.svg" ?>" alt="Logo - OzonoRai">
                     </a></li>
                     <li class="lista-secciones__item"><a href="<?php echo RUTA_PRODUCTOS ?>">
                         <p>

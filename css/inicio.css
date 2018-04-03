@@ -1,0 +1,120 @@
+@keyframes slidy {
+    
+    /* 0% { left: -200%; }
+    10% { left: -200%; }
+    20% { left: -200%; }
+    35% { left: -200%; }
+    55% { left: -200%; }
+    65% { left: -200%; }
+    80% { left: -200%; }
+    90% { left: -200%; }
+    100% { left: -200%; } */
+
+    0% { left: 0%; }
+    10% { left: 0%; }
+    20% { left: 0%; }
+    35% { left: -100%; }
+    55% { left: -100%; }
+    65% { left: -100%; }
+    75% { left: -200%; }
+    90% { left: -200%; }
+    100% { left: 0%; }
+
+}
+
+.inicio {
+    /* width: 90%; */
+    overflow-x: hidden;
+    height: calc(100vh - 133px);
+    background-color: var(--primary-color);
+}
+
+.slider {
+    background: linear-gradient(to right, #17EEDF, #7FEED8,#17EEDF, #7FEED8,#17EEDF, rgb(149, 245, 226),#17EEDF);
+    position: relative;
+    width: 300%; /* el 100% multiplicado por la cantidad de imagenes */
+    font-size: 0;
+    animation: 15s slidy infinite;
+    margin:0;
+}
+
+.inicio__slide {
+    width: calc(100% / 3); /* el 100% dividido por la cantidad de imagenes */
+    height: auto;
+    display: inline-block; 
+    position: inherit; 
+    top: 0;
+    margin: 0;
+}
+
+.slide__imagen {
+    width: 100%;
+    height: auto; 
+}
+
+.slide__descripcion {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    font-size: var(--medium-size);
+    padding: 20px;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.contenedor-slider {
+    width: 100%;
+    height: 100px;
+}
+
+.slide-des__title {
+    font-size: var(--big-size);
+    font-weight: bold;
+}
+
+.slide__con_productos {
+    height: 100%;
+    position: relative;
+}
+
+[class^="slide__imagen-producto"] {
+    /* display: flex; */
+    max-width:70px;
+    margin-left: 2px;
+    margin-right: 2px;
+    position: absolute;
+}
+
+.desc-1 {
+    transform: translateY(150%);
+}
+
+.desc-2 {
+    transform: translateY(80%);
+}
+
+.slide__imagen-producto-1 {
+    bottom: 15%;
+    left: 5%;
+}
+
+.slide__imagen-producto-2 {
+    bottom: 120%;
+    left: 20%;
+}
+
+.slide__imagen-producto-3 {
+    bottom: 15%;
+    left: 40%;
+}
+
+.slide__imagen-producto-4 {
+    bottom: 120%;
+    left: 60%;
+}
+.slide__imagen-producto-5 {
+    bottom: 15%;
+    left: 78%;
+}
