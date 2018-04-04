@@ -11,7 +11,7 @@
             <h1 class="productos__title"><span>Modelos exclusivos</span> en Perú</h1>
             <section class="productos__lista">
                 <?php foreach ($products as $product): ?>
-                    <a href="<?php echo "/productos/" . $product['id']. "/" . str_replace(' ', '_', $product['name']) ?>" class="producto">
+                    <a href="<?php echo RUTA_PRODUCTOS . $product['id']. "/" . str_replace(' ', '_', $product['name']) ?>" class="producto">
                         <figure class="producto__imagen">
                             <img src="<?php echo RUTA_IMG . "productos/min/". $product["image_url"] ?>" alt="<?php echo $product["name"] ?>">
                         </figure>
