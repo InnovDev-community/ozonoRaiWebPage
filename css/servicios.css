@@ -5,9 +5,7 @@
     line-height: 1.45;
 }
 
-.servicios__title {
-    text-shadow: 1px 1px 1px #000;
-}
+
 
 .servicios__lista {
     font-size: var(--medium-size);

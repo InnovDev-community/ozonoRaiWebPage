@@ -4,3 +4,38 @@
     color: var(--secondary-color);
     /* min-height: calc(100vh - 133px); */
 }
+
+.descripcion__parrafo-simple {
+    padding: 10px 20px;
+    line-height: 1.45;
+    font-size: var(--medium-size);
+}
+
+.ozono h1 {
+    text-align: center;
+}
+
+.ozono h2 {
+    padding: 10px 20px;
+}
+
+.ozono h1, h2 {
+    width: 100%;
+}
+
+
+
+.descripcion__parrafo-completo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.descripcion__parrafo-completo img{
+    max-width:89px;
+}
+
+.contenido__lista {
+    line-height: 1.45;
+    font-size: var(--medium-size);
+}

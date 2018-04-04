@@ -8,7 +8,7 @@
 
 @media(min-width:920px){
     .footer {
-        height: 37px;
+        height: 40px;
         max-width: 920px;
         font-weight: normal;
         background: radial-gradient(rgba(255,255,255,.7),rgba(0, 180, 255, 0.8));
