@@ -60,7 +60,7 @@
 
     }
 
-    .contacto__form-izq input:hover, .contacto__form-der textarea:hover {
+    .contacto__form-izq input:hover, .contacto__form-der textarea:hover, .contacto__form-izq input:focus, .contacto__form-der textarea:focus {
         box-shadow: 0 0 7px var(--primary-color);
         border: 2px solid var(--primary-color);
     }

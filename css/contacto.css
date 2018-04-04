@@ -31,15 +31,14 @@
     margin-bottom: 10px;
     width: 90%;
     max-width: 350px;
-    font-weight: bold;
     background-color: var(--secondary-color);
-    color:  var(--primary-color);
+    color:  black;
     border: 2px solid var(--secondary-color);
     border-radius: 4px;
     transition: all .7s;
 }
 
-.contacto__form-izq input:hover, .contacto__form-der textarea:hover {
+.contacto__form-izq input:hover, .contacto__form-der textarea:hover{
     box-shadow: 0 0 7px white;
 }
 
