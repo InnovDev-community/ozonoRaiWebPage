@@ -24,7 +24,7 @@
                 <?php endforeach; ?>
             </section>
             <section class="productos__extra">
-                <a href="" class="informacion">
+                <a href="<?php echo RUTA_PRODUCTOS."detalles_tecnicos" ?>" class="informacion">
                     <div class="info__1">
                         <img src="<?php echo RUTA_IMG . "productos/min/min_arrow_2.png" ?>" alt="Funcionamiento del sistema">
                         <p>Funcionamiento del Sistema / Especifiaciones Técnicas</p>
