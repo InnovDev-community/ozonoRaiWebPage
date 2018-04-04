@@ -50,18 +50,18 @@
                 </a>
             </section>
             <section class="producto__otros-productos">
-                <div class="otro-producto">
+                <a href="" class="otro-producto">
                     <img src="<?php echo RUTA_IMG."productos/min/min_modelo_alargado.png" ?>" alt="Modelo Alargado en Acero Inoxidable">
                     <p>Modelo Alargado en Acero Inoxidable</p>
-                </div>
-                <div class="otro-producto">
+                </a>
+                <a href="" class="otro-producto">
                     <img src="<?php echo RUTA_IMG."productos/min/min_modelo_mini.png" ?>" alt="Modelo Mini en Acrílico - ABS">
                     <p>Modelo Mini en Acrílico - ABS</p>
-                </div>
-                <div class="otro-producto">
+                </a>
+                <a href="" class="otro-producto">
                     <img src="<?php echo RUTA_IMG."productos/min/min_modelo_aerodinamico.png" ?>" alt="Modelo Aerodinámico en Acrílico - ABS">
                     <p>Modelo Aerodinámico en Acrílico - ABS</p>
-                </div>
+                </a>
             </section>
         </section>
         <?php include_once "pages/components/comp.footer.php" ?>
