@@ -2,7 +2,8 @@
 <html lang="es">
 <head>
     <?php include_once "components/comp.meta.php" ?>
-    <link rel="stylesheet" href="<?php echo RUTA_CSS."servicios.css" ?>">
+    <link rel="stylesheet" href="<?php echo RUTA_CSS."detalles_tecnicos.css" ?>">
+    <link rel="stylesheet" href="<?php echo RUTA_CSS."detalles_tecnicos-media.css" ?>">
     <title>Funcionamiento, Esquema e Instalación - OzonoRai</title>
 </head>
 <body>

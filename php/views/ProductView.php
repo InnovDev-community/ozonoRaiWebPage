@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
     <?php include_once "pages/components/comp.meta.php" ?>
+    <link rel="stylesheet" href="<?php echo RUTA_CSS."productos.css" ?>">
+    <link rel="stylesheet" href="<?php echo RUTA_CSS."productos-media.css" ?>">
     <title>Productos - OzonoRai</title>
     <style>
         /* Codigo provicional */

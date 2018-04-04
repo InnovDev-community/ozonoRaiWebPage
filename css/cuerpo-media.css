@@ -4,6 +4,7 @@
         max-width: 920px;
         min-height: 479px;
         height: 479px;
+        background: radial-gradient(circle,#FFFFFF,#FFFFFF,rgb(161, 226, 226));
     }
 }
 

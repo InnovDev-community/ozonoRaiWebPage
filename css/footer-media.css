@@ -10,9 +10,8 @@
     .footer {
         height: 40px;
         max-width: 920px;
-    }
-    .lista-footer__item{
-        font-size: var(--small-size);
+        font-weight: normal;
+        background: radial-gradient(rgba(255,255,255,.7),rgba(0, 180, 255, 0.8));
     }
 }
 

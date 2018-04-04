@@ -7,6 +7,7 @@
     justify-content: center;
     font-weight: bold;
     box-shadow: 0 0 2px black;
+    height: 40px;
 }
 
 .lista-footer{
@@ -22,7 +23,7 @@
     flex: auto;
     margin-right: 10px;
     color: black;
-    font-size: var(--tiny-size);
+    font-size: 14px;
 }
 
 

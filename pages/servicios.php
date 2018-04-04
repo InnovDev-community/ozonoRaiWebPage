@@ -3,6 +3,7 @@
 <head>
     <?php include_once "components/comp.meta.php" ?>
     <link rel="stylesheet" href="<?php echo RUTA_CSS."servicios.css" ?>">
+    <link rel="stylesheet" href="<?php echo RUTA_CSS."servicios-media.css" ?>">
     <title>Servicios - OzonoRai</title>
 </head>
 <body>
@@ -11,12 +12,12 @@
         <section class="cuerpo servicios">
             <h1 class="servicios__title"><span>Nuestros</span> servicios</h1>
             <ul class="servicios__lista">
-                <li class="servicios__lista_item icon-angle-double-right">Atención a todo el país</li>
-                <li class="servicios__lista_item icon-angle-double-right">Asesoramiento y demostración sin costo</li>
-                <li class="servicios__lista_item icon-angle-double-right">Servicio Postventa</li>
-                <li class="servicios__lista_item icon-angle-double-right">Todos nuestros productos</li>
-                <li class="servicios__lista_item icon-angle-double-right">Servicio técnico permanente</li>
-                <li class="servicios__lista_item icon-angle-double-right">Stock de Respuestos originales</li>
+                <li class="servicios__lista_item "><span class="icon-angle-double-right"></span> Atención a todo el país</li>
+                <li class="servicios__lista_item"><span class="icon-angle-double-right"></span> Asesoramiento y demostración sin costo</li>
+                <li class="servicios__lista_item"><span class="icon-angle-double-right"></span> Servicio Postventa</li>
+                <li class="servicios__lista_item"><span class="icon-angle-double-right"></span> Todos nuestros productos cuentan con garantía</li>
+                <li class="servicios__lista_item"><span class="icon-angle-double-right"></span> Servicio técnico permanente</li>
+                <li class="servicios__lista_item"><span class="icon-angle-double-right"></span> Stock de Respuestos originales</li>
             </ul>
         </section>
         <?php include_once "components/comp.footer.php" ?>
