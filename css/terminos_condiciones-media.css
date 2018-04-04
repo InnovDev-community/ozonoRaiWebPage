@@ -1,0 +1,19 @@
+@media(min-width:920px) {
+    .terminos_condiciones {
+        color: black;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 45px;
+        padding-right: 45px;
+        text-align: justify;
+    }
+
+    .terminos_condiciones__title {
+        color: var(--primary-color);
+    }
+
+    .terminos_condiciones__contenido {
+        font-size: var(--small-size);
+    }
+
+}

@@ -10,7 +10,7 @@
     <main class="con-principal">
         <?php include_once "components/comp.header.php" ?>
         <section class="cuerpo terminos_condiciones">
-            <h1 class="terminos_condiciones__title">Terminos y condiciones</h1>
+            <h1 class="terminos_condiciones__title">Términos y condiciones</h1>
             <div class="terminos_condiciones__contenido">
                 <p>
                     Si decide visitar <span>www.ozonorai.net</span> debes de conocer las siguientes condiciones de 
