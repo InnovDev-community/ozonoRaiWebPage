@@ -1,7 +1,6 @@
 .nosotros {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    /* min-height: calc(100vh - 133px); */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,8 +12,6 @@
     padding: 15px;
     margin-bottom: 0;
     margin-top: 0;
-    /* background-color: var(--secondary-color);
-    color: var(--primary-color); */
 }
 
 .nosotros__logo img {

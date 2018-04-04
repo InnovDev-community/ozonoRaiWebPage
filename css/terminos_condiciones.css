@@ -1,0 +1,16 @@
+.terminos_condiciones {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    line-height: 1.45;
+    font-size: var(--medium-size);
+}
+
+.terminos_condiciones__title {
+    text-align: center;
+    margin: 0;
+}
