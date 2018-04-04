@@ -50,27 +50,12 @@
                 </a>
             </section>
             <section class="producto__otros-productos">
-<<<<<<< HEAD
                 <?php foreach ($more_products as $more): ?>
                     <div class="otro-producto">
                         <img src="<?php echo RUTA_IMG . "productos/min/". $more["image_url"] ?>" alt="<?php echo $more["name"] ?>">
                         <p><?php echo $more['name'] ?></p>
                     </div>
                 <?php endforeach; ?>
-=======
-                <a href="" class="otro-producto">
-                    <img src="<?php echo RUTA_IMG."productos/min/min_modelo_alargado.png" ?>" alt="Modelo Alargado en Acero Inoxidable">
-                    <p>Modelo Alargado en Acero Inoxidable</p>
-                </a>
-                <a href="" class="otro-producto">
-                    <img src="<?php echo RUTA_IMG."productos/min/min_modelo_mini.png" ?>" alt="Modelo Mini en Acrílico - ABS">
-                    <p>Modelo Mini en Acrílico - ABS</p>
-                </a>
-                <a href="" class="otro-producto">
-                    <img src="<?php echo RUTA_IMG."productos/min/min_modelo_aerodinamico.png" ?>" alt="Modelo Aerodinámico en Acrílico - ABS">
-                    <p>Modelo Aerodinámico en Acrílico - ABS</p>
-                </a>
->>>>>>> dc43d3f63d9f9801ab0d254ea98bca427a57a1d8
             </section>
         </section>
         <?php include_once "pages/components/comp.footer.php" ?>
