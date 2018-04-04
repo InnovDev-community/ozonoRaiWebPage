@@ -36,12 +36,10 @@
                             </header>
                             <div id="contenido">
                                 <div id="contenido__descripcion">
-                                    <p>Hecho en Acero Inoxidable (18-8)</p>
-                                    <p>Cañon Fijo.</p>
-                                    <p>Medidas: 31 cm. x 21 cm. x 14cm.</p>
+                                    <?php echo $product['description_html'] ?>
                                 </div>
                                 <div id="contenido__video">
-                                    Video!!!
+                                    <?php echo $product['video_html'] ?>
                                 </div>
                             </div>
                         </div>
