@@ -13,21 +13,36 @@
             <h1 class="contacto__title">Contáctanos</h1>
             <div class="contacto__detalles">
                 <div class="detalle">
-                    <p class="detalle__departamento">Trujillo:</p>
-                    <p class="detalle__avenida">Av. Vallejo 558 Urb. Palermo</p>
-                    <p class="detalle__telefono">T. (044) 205 225 - Celular: 950951451</p>
+                    <div class="icon-home"></div>
+                    <div class="detalle_parrafos">
+                        <p class="detalle__departamento">Trujillo:</p>
+                        <p class="detalle__avenida">Av. Vallejo 558 Urb. Palermo</p>
+                        <p class="detalle__telefono">T. (044) 204 225 - Celular: 950951451</p>
+                    </div>
+                    
                 </div>
                 <div class="detalle">
-                    <p class="detalle__email">ventas@ozonorai.net</p>
+                    <div class="icon-mail"></div>
+                    <div class="detalle_parrafos">
+                        <p class="detalle__email">ventas@ozonorai.net</p>
+                    </div>
                 </div>
             </div>
             <form class="contacto__form" action="" method="POST">
                 <h2>FORMULARIO DE CONTACTOS</h2>
-                <input type="text" name="txtNombre" placeholder="Nombre">
-                <input type="text" name="txtTelefono" placeholder="Teléfono">
-                <input type="email" name="txtEmail" placeholder="E-Mail">
-                <textarea name="txtMensaje" placeholder="Mensaje o solicitar pedidos"></textarea>
-                <button name="btnEnviar">Enviar</button>
+                <div class="contenido">
+                    <div class="contacto__form-izq">
+                        <input type="text" name="txtNombre" placeholder="Nombre">
+                        <input type="text" name="txtTelefono" placeholder="Teléfono">
+                        <input type="email" name="txtEmail" placeholder="E-Mail">
+                    </div>
+                    <div class="contacto__form-der">
+                        <textarea name="txtMensaje" placeholder="Mensaje o solicitar pedidos"></textarea>
+                        <button name="btnEnviar">Enviar<span class="icon-paper-plane"></span></button>
+                    </div>
+                </div>
+                
+                
 
                 <?php
 

@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.contacto__form {
+[class^="contacto__form-"]{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +25,7 @@
     margin-top: 0;
 }
 
-.contacto__form input, .contacto__form textarea {
+.contacto__form-izq input, .contacto__form-der textarea {
     height: 40px;
     padding: 7px;
     margin-bottom: 10px;
@@ -39,34 +39,46 @@
     transition: all .7s;
 }
 
-.contacto__form input:hover, .contacto__form textarea:hover {
+.contacto__form-izq input:hover, .contacto__form-der textarea:hover {
     box-shadow: 0 0 7px white;
 }
 
-/* .contacto__form input:focus, .contacto__form textarea:focus {
-    box-shadow: 0 0 7px white;
-}
- */
-.contacto__form textarea {
+
+.contacto__form-der textarea {
     height: 100px;
     resize: none;
 }
 
-.contacto__form button {
+.contacto__form-der button {
     cursor: pointer;
-    width: 100px;
+    width: 110px;
     height: 40px;
-    /* font-weight: bold; */
     background-color: transparent;
     color:  var(--secondary-color);
     border: 2px solid white;
     border-radius: 7px;
     transition: all .7s;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.contacto__form button:hover {
+.contacto__form-der button:hover {
     background-color: var(--secondary-color);
     color:  var(--primary-color);
     font-weight: bold;
     box-shadow: 0 0 3px white;
+}
+
+.detalle {
+    display: flex;
+    margin: 10px 0;
+}
+
+.detalle_parrafos {
+    line-height: 1.5;
+}
+.detalle_parrafos p {
+    margin: 0;
+    padding-left: 10px;
 }
