@@ -18,10 +18,8 @@
                             <img src="<?php echo RUTA_IMG . "productos/min/". $product["image_url"] ?>" alt="<?php echo $product["name"] ?>">
                         </figure>
                         <p class="producto__nombre">
-                            <?php echo $product["description_html"] ?>
+                            <?php echo $product["name"] ?>
                         </p>
-
-                        <?php echo $product["video_html"] ?>
                     </a>
                 <?php endforeach; ?>
             </section>

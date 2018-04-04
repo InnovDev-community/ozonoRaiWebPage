@@ -26,7 +26,9 @@
             for ($i = 0; $i < 3; $i++) {
                 if ($ids[$number] == $id) $number = ++$number % $total_ids;
 
-                $more_products[] = $this -> product_model -> get_producto_by_id($ids[$number++]);
+                $more_products[] = $this -> product_model -> get_producto_by_id($ids[$number]);
+
+                $number = ++$number % $total_ids;
             }
 
             require_once('php/views/ProductView.php');
