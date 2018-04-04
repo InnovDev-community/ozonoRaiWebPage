@@ -16,6 +16,10 @@
         height: auto;
     }
 
+    .slide-des__contenido {
+        line-height: 1.15;
+    }
+
     [class^="slide__imagen-producto"] {
         /* display: flex; */
         max-width:150px;

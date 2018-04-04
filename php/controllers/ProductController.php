@@ -10,7 +10,8 @@
         public function all_products() {
             $products = $this -> product_model -> get_products();
 
-            require_once('../php/views/ProductView.php');
+            /* require_once('../php/views/ProductView.php'); */
+            require_once('php/views/ProductView.php'); /* <----- Cambio */
         }
 
     }

@@ -12,8 +12,8 @@
     padding: 15px;
     margin-bottom: 0;
     margin-top: 0;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    /* background-color: var(--secondary-color);
+    color: var(--primary-color); */
 }
 
 .nosotros__logo img {
@@ -25,19 +25,30 @@
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+
 }
 
 .contenido__parrafo {
     padding: 15px;
+    line-height: 1.45;
+    font-size: var(--medium-size);
 }
 
-.contenido__parrafo:nth-child(odd){
+.contenido__parrafo h2{
+    margin-top: 0;
+}
+
+.contenido__parrafo p{
+    margin: 0;
+}
+
+/* .contenido__parrafo:nth-child(odd){
     width: 100%;
     display: inline-block;
     background-color: var(--secondary-color);
     color: var(--primary-color);
-}
+} */
 
-.contenido__parrafo:nth-child(1){
+/* .contenido__parrafo:nth-child(1){
     margin-top: 0;
-}
+} */

@@ -76,6 +76,10 @@
     font-weight: bold;
 }
 
+.slide-des__contenido {
+    line-height: 1.45;
+}
+
 .slide__con_productos {
     height: 100%;
     position: relative;

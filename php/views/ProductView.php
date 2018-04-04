@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <?php include_once "components/comp.meta.php" ?>
+    <!-- <?php include_once "components/comp.meta.php" ?> -->
+    <?php include_once "pages/components/comp.meta.php" ?>
     <title>Productos - OzonoRai</title>
 </head>
 <body>
     <main class="con-principal">
-        <?php include_once "components/comp.header.php" ?>
+        <!-- <?php include_once "components/comp.header.php" ?> -->
+        <?php include_once "pages/components/comp.header.php" ?>
         <section class="cuerpo productos">
             <h1 class="productos__title"><span>Modelos exclusivos</span> en Perú</h1>
             <section class="productos__lista">
@@ -36,7 +38,8 @@
                 </a>
             </section>
         </section>
-        <?php include_once "components/comp.footer.php" ?>
+        <!-- <?php include_once "components/comp.footer.php" ?> -->
+        <?php include_once "pages/components/comp.footer.php" ?>
     </main>
 </body>
 </html>
