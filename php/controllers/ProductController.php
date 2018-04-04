@@ -24,7 +24,7 @@
             $more_products = array();
 
             for ($i = 0; $i < 3; $i++) {
-                for (; $ids[$number] == $id;) $number = ++$number % $total_ids;
+                if ($ids[$number] == $id) $number = ++$number % $total_ids;
 
                 $more_products[] = $this -> product_model -> get_producto_by_id($ids[$number++]);
             }
