@@ -7,6 +7,10 @@
             $this -> conn = Connection::GET_CONNECTION();
         }
 
+        public function __destruct() {
+            $this -> conn -> close();
+        }
+
         public function get_products() {
             $products = array();
 
@@ -29,6 +33,18 @@
             }
 
             return $product;
+        }
+
+        public function get_ids() {
+            $ids = array();
+
+            if ($query = $this -> conn -> query("SELECT id FROM products")) {
+                while ($row = $query -> fetch_assoc()) $ids[] = $row['id'];
+
+                $query -> close();
+            }
+
+            return $ids;
         }
 
     }
