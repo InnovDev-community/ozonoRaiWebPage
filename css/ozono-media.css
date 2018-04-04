@@ -1,0 +1,8 @@
+@media(min-width:920px) {
+    .ozono {
+        color: black;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

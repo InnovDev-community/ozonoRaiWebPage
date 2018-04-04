@@ -4,7 +4,6 @@
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
-        border-left: 1px solid var(--accent-color);
     }
 
     .nosotros__logo {
@@ -16,7 +15,7 @@
     }
 
     .nosotros__logo img {
-        filter: drop-shadow(5px 5px 2px gray);
+        filter: drop-shadow(4px 4px 2px gray);
     }
 
     .nostros-des__contenido {

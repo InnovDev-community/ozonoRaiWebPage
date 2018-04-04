@@ -16,9 +16,10 @@
     .logo {
         display: flex;
         margin: auto;
-        height: 75px;
+        width:200px;
+        height: 80px;
         padding: 5px;
-        filter: drop-shadow(2px 2px 2px #000);
+        filter: drop-shadow(4px 5px 2px rgba(0,0,0,.5));
     }
 
     .icon-menu {

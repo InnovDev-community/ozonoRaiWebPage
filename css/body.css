@@ -23,6 +23,8 @@ body {
 @media(min-width:920px) {
     body {
         background-image:url("../img/background.jpg");
+        background-size: 126%;
+        background-position: 53% 50.3%;
         display: block;
     }
 }

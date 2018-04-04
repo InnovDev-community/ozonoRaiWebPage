@@ -3,6 +3,7 @@
 <head>
     <?php include_once "components/comp.meta.php" ?>
     <link rel="stylesheet" href="<?php echo RUTA_CSS."ozono.css" ?>">
+    <link rel="stylesheet" href="<?php echo RUTA_CSS."ozono-media.css" ?>">
     <title>Ozono y salud - OzonoRai</title>
 </head>
 <body>

@@ -1,13 +1,8 @@
 @media(min-width:920px) {
-    .productos {
+    .contacto {
         color: black;
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
-    }
-
-    .producto, .otro_producto, .informacion{
-        text-decoration: none;
-        color: black;
     }
 }
