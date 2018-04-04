@@ -29,7 +29,7 @@
 }
 
 .contenido__parrafo {
-    padding: 15px;
+    padding: 15px 25px;
     line-height: 1.45;
     font-size: var(--medium-size);
 }

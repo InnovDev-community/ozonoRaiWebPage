@@ -1,0 +1,50 @@
+@media(min-width:640px) {
+    .servicios {
+        padding-left: 10%;
+    }
+    .servicios__lista_item {
+        padding-left: 2%;
+    }
+}
+
+@media(min-width:768px) {
+    .servicios {
+        padding-left: 10%;
+        background: url(../img/servicios/wallpaper_asistente.png), url(../img/servicios/wallpaper_logo_ozono.png), var(--primary-color);
+        background-repeat: no-repeat;
+        background-position: 100% 100%, 98% 10%;
+        background-size: 260px 305px, 300px 110px, 100%;
+    }
+}
+
+@media(min-width:920px) {
+    .servicios {
+        padding-left: 50px;
+        background: url(../img/servicios/wallpaper_logo_ozono.png), url(../img/servicios/wallpaper_asistente.png), radial-gradient(circle,#FFFFFF,#FFFFFF,rgb(161, 226, 226));
+        background-repeat: no-repeat;
+        background-position: 98% 10%, 100% 100%;
+        background-size: 320px 120px, 275px 320px, 100%;
+    }
+
+    .servicios__title {
+        font-size: 45px;
+        text-shadow: 0 0 0 transparent;
+        color: var(--primary-color);
+        font-weight: normal;
+        margin-bottom: 25px;
+    }
+
+    .servicios__title span {
+        font-weight: bold;
+    }
+
+    .servicios__lista_item {
+        color: black;
+        padding-left: 65px;
+        padding-bottom: 7px;
+    }
+
+    .servicios__lista_item span {
+        color: red;
+    }
+}

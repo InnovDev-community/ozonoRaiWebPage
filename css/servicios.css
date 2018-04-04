@@ -2,7 +2,7 @@
     background-color: var(--primary-color);
     padding: 10px;
     color: var(--secondary-color);
-    /* min-height: calc(100vh - 133px); */
+    line-height: 1.45;
 }
 
 .servicios__title {
