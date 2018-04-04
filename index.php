@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include_once 'php/variables.php';
 
 	//Variables
@@ -24,7 +24,7 @@
 	/********************/
 	if(count($partes_ruta)==0+$cambio_local_remoto){
 
-		//Cuando no pedimos nada { ozonorai.net } 
+		//Cuando no pedimos nada { ozonorai.net }
 		$ruta_elegida='pages/inicio.php';
 	}else if(count($partes_ruta)==1+$cambio_local_remoto){
 
@@ -50,9 +50,18 @@
 				break;
 			case 'terminos_condiciones':
 				$ruta_elegida='pages/terminos_condiciones.php';
+				break;			
+        }
+	}else if(count($partes_ruta)==2+$cambio_local_remoto){
+
+		//Cuando pedimos una seccion { ozonorai.net/productos/detalles_tecnicos }
+		switch ($partes_ruta[0+$cambio_local_remoto]) {
+			case 'productos':
+				$ruta_elegida='pages/detalles_tecnicos.php';
 				break;
         }
-	}else if(count($partes_ruta)==3+$cambio_local_remoto){
+    }	
+	else if(count($partes_ruta)==3+$cambio_local_remoto){
 
 		//Cuando pedimos una seccion { ozonorai.net/productos/01/modelo_gota }
 		switch ($partes_ruta[0+$cambio_local_remoto]) {

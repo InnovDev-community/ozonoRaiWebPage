@@ -3,6 +3,7 @@
 <head>
     <?php include_once "components/comp.meta.php" ?>
     <link rel="stylesheet" href="<?php echo RUTA_CSS."nosotros.css" ?>">
+    <link rel="stylesheet" href="<?php echo RUTA_CSS."nosotros-media.css" ?>">
     <title>Nosotros - OzonoRai</title>
 </head>
 <body>
