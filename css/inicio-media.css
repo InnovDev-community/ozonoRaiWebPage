@@ -83,19 +83,19 @@
 
     .titulo-2 {
         bottom: 235%;
-        left: 115%;
+        left: 105%;
         font-size: 40px;
-        color: rgb(13, 13, 134);
+        color: var(--primary-color);
         width: 60%;
     }
 
     .contenido-2 {
-        bottom: 120%;
-        color: rgb(223, 219, 219);
+        bottom: 130%;
+        color:black;
         font-size:21px;
         font-weight: bold;
-        left: 115%;
-        width:45%;
+        left: 105%;
+        width:52%;
         line-height: 1.45;
     }
 
