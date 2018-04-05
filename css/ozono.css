@@ -11,7 +11,7 @@
     font-size: var(--medium-size);
 }
 
-.ozono h1 {
+.ozono__title {
     text-align: center;
 }
 
@@ -19,7 +19,7 @@
     padding: 10px 20px;
 }
 
-.ozono h1, h2 {
+.ozono__title, h2 {
     width: 100%;
 }
 

@@ -13,11 +13,11 @@
             <h1 class="ozono__title"><span>Ozono</span> y salud</h1>
             <article class="ozono__descripcion">
                 <section class="descripcion__col-izq">
-                    <p class="descripcion__parrafo-simple">El OZONO (Oxígeno naciente) es el agente más oxidante (después del flúor) del que dispone el hombre. 
+                    <p class="descripcion__parrafo-simple parrafo-directo-1">El OZONO (Oxígeno naciente) es el agente más oxidante (después del flúor) del que dispone el hombre. 
                         Siendo además un decolorante muy efectivo y un potente destructor de gérmenes. 
                         Mata bacterias y hongos con mayor rapidez que el cloro. </p>
-                    <p class="descripcion__parrafo-simple">El efecto deodorante del OZONO (O3) se debe a que destruye las sustancias de las cuales emanan los malos olores.</p>
-                    <p class="descripcion__parrafo-simple">Debido a las ventajosas propiedades del OZONO, se ha marcado un incremento en su utilización en 
+                    <p class="descripcion__parrafo-simple parrafo-directo-2">El efecto deodorante del OZONO (O3) se debe a que destruye las sustancias de las cuales emanan los malos olores.</p>
+                    <p class="descripcion__parrafo-simple parrafo-directo-3">Debido a las ventajosas propiedades del OZONO, se ha marcado un incremento en su utilización en 
                         el mundo entero. Su utilización industrial en la purificación de aguas potables se conoce 
                         desde hace más de 70 años (sin haberse registrado accidente alguno). </p>
                     <div class="descripcion__parrafo-completo">
@@ -42,7 +42,7 @@
                 </section>
                 <section class="descripcion__col-der">
                     <div class="descripcion__parrafo-completo">
-                        <img src="<?php echo RUTA_IMG."ozono/ozosalud_img_03.png" ?>" alt="Usos del ozono">
+                        <img class="img_absolute" src="<?php echo RUTA_IMG."ozono/ozosalud_img_03.png" ?>" alt="Usos del ozono">
                         <div class="parrafo-completo__contenido">
                             <h2>USOS</h2>
                             <p class="descripcion__parrafo-simple">Podemos comprobar como el OZONO EN EL TRATAMIENTO DEL AGUA ES UN GRAN SEGURO PARA EL CONSUMO DE LA MISMA EN 
