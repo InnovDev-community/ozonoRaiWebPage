@@ -23,9 +23,7 @@
 }
 
 .inicio {
-    /* width: 90%; */
     overflow-x: hidden;
-    /* height: calc(100vh - 133px); */
     background-color: var(--primary-color);
 }
 
@@ -42,7 +40,6 @@
 
 .inicio__slide {
     width: calc(100% / 3); /* el 100% dividido por la cantidad de imagenes */
-    /* height: auto; */
     display: inline-block; 
     position: inherit; 
     top: 0;
