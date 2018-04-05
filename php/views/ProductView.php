@@ -52,7 +52,7 @@
             <section class="producto__otros-productos">
                 <?php foreach ($more_products as $more): ?>
                     <a href="<?php echo RUTA_PRODUCTOS . $more['id']. "/" . str_replace(' ', '_', $more['name']) ?>" class="otro-producto">
-                        <img src="<?php echo RUTA_IMG . "productos/normal/". $more["image_url"] ?>" alt="<?php echo $more["name"] ?>">
+                        <img src="<?php echo RUTA_IMG . "productos/min/min_". $more["image_url"] ?>" alt="<?php echo $more["name"] ?>">
                         <p><?php echo $more['name'] ?></p>
                     </a>
                 <?php endforeach; ?>
