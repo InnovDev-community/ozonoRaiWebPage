@@ -15,7 +15,7 @@
                 <?php foreach ($products as $product): ?>
                     <a href="<?php echo RUTA_PRODUCTOS . $product['id']. "/" . str_replace(' ', '_', $product['name']) ?>" class="producto">
                         <figure class="producto__imagen">
-                            <img src="<?php echo RUTA_IMG . "productos/min/". $product["image_url"] ?>" alt="<?php echo $product["name"] ?>">
+                            <img src="<?php echo RUTA_IMG . "productos/normal/". $product["image_url"] ?>" alt="<?php echo $product["name"] ?>">
                         </figure>
                         <p class="producto__nombre">
                             <?php echo $product["name"] ?>
