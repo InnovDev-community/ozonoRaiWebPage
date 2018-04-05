@@ -2,5 +2,55 @@
     background-color: var(--primary-color);
     padding: 10px;
     color: var(--secondary-color);
-    /* min-height: calc(100vh - 133px); */
+    line-height: 1.45;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+figure {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure img{
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid gray;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.detalles_tecnicos-der {
+    width: 100%
+}
+
+figure h2{
+    width:100%;
+}
+
+ul {
+    list-style: none;
+    font-size: var(--medium-size);
+    margin-left:0;
+    padding-left: 20px;
+}
+
+.detalles_tecnicos__title {
+    width: 100%;
+    text-align: center;
+}
+
+.detalles_tecnicos-izq p {
+    font-size: var(--medium-size);
+}
+
+
+.subrayado {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
