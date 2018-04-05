@@ -1,3 +1,5 @@
+@import url(cuerpo-media.css);
+
 @media(min-width:640px){
     .slide__descripcion {
         height: 45%;

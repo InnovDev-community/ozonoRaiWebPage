@@ -1,7 +1,7 @@
 <?php
 	//define('SERVIDOR','http://localhost/OzonoRai');
 	define('SERVIDOR','http://localhost/OzonoRaiWebPage');
-	//define('SERVIDOR','http://innovdevelopers.com/pruebaGITHUB');
+	//define('SERVIDOR','https://innovdevelopers.com/pruebaGITHUB');
 
 	//Variables de las rutas (Paginas, etilos etc)
 	define('RUTA_INICIO', SERVIDOR.'/inicio/');
