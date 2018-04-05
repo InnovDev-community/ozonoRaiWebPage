@@ -1,6 +1,6 @@
  DROP DATABASE IF EXISTS ozono;
 
-/* CREATE DATABASE ozono;
+CREATE DATABASE ozono;
 
 USE ozono;
 
@@ -10,7 +10,7 @@ CREATE TABLE products(
     description_html TEXT NOT NULL,
     image_url TEXT NOT NULL,
     video_html TEXT NOT NULL
-); */
+); 
 
  INSERT INTO products(
      name, description_html, image_url, video_html
