@@ -52,7 +52,6 @@
     .contacto__form-izq input, .contacto__form-der textarea {
         border: 2px solid gray;
         border-radius: 4px;
-        transition: all .7s;
     }
 
     .contacto__form-der button:hover {

@@ -2,7 +2,6 @@
     background-color: var(--primary-color);
     padding: 10px;
     color: var(--secondary-color);
-    /* min-height: calc(100vh - 133px); */
 }
 
 .descripcion__parrafo-simple {
