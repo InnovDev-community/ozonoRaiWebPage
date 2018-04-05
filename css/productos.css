@@ -16,3 +16,9 @@
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+.productos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
