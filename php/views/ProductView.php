@@ -71,7 +71,7 @@
             event.preventDefault();
 
             //Reiniciamos todo
-            $("#contenido div").hide();
+            $("#contenido > div").hide();
             $("#menu a").removeClass("menu__item-selected");
 
             console.log($("#menu a"))
