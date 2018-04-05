@@ -22,16 +22,16 @@
         <section class="cuerpo producto">
             <section class="producto__contenedor">
                 <div>
-                    <img src="<?php echo RUTA_IMG . "productos/min/". $product["image_url"] ?>" alt="<?php echo $product["name"] ?>">
+                    <img src="<?php echo RUTA_IMG . "productos/normal/". $product["image_url"] ?>" alt="<?php echo $product["name"] ?>">
                     <div class="producto__detalles">
                         <h1><?php echo $product['name'] ?></h1>
                         <div>
                             <header id="menu">
                                 <a class="menu__item" href="#" title="Descripción" data-seccion="contenido__descripcion">
-                                    <?php echo $product['description_html'] ?>
+                                    Descripción
                                 </a>
                                 <a class="menu__item" href="#" title="Vídeo" data-seccion="contenido__video">
-                                    <?php echo $product['video_html'] ?>
+                                    Video
                                 </a>
                             </header>
                             <div id="contenido">
@@ -51,10 +51,10 @@
             </section>
             <section class="producto__otros-productos">
                 <?php foreach ($more_products as $more): ?>
-                    <div class="otro-producto">
-                        <img src="<?php echo RUTA_IMG . "productos/min/". $more["image_url"] ?>" alt="<?php echo $more["name"] ?>">
+                    <a href="<?php echo RUTA_PRODUCTOS . $more['id']. "/" . str_replace(' ', '_', $more['name']) ?>" class="otro-producto">
+                        <img src="<?php echo RUTA_IMG . "productos/normal/". $more["image_url"] ?>" alt="<?php echo $more["name"] ?>">
                         <p><?php echo $more['name'] ?></p>
-                    </div>
+                    </a>
                 <?php endforeach; ?>
             </section>
         </section>
