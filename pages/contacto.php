@@ -38,7 +38,7 @@
                     </div>
                     <div class="contacto__form-der">
                         <textarea name="txtMensaje" placeholder="Mensaje o solicitar pedidos" required></textarea>
-                        <button name="btnEnviar">Enviar<span class="icon-paper-plane"></span></button>
+                        <button name="btnEnviar" disabled>Enviar<span class="icon-paper-plane"></span></button>
                     </div>
                 </div>
                 

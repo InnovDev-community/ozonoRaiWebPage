@@ -14,10 +14,7 @@
     }
 
     .contacto__form-der button {
-        background-color: #D32F2F;
         color:  var(--secondary-color);
-        border: 2px solid #D32F2F;
-
     }
 
     .contacto__title {
@@ -57,13 +54,38 @@
         border-radius: 4px;
     }
 
-    .contacto__form-der button:hover {
-        color: #D32F2F;
 
+    .contacto__form-der button:hover:enabled {
+        background-color: var(--secondary-color);
+        color: #D32F2F;
+        font-weight: bold;
+        box-shadow: 0 0 3px white;
     }
 
     .contacto__form-izq input:hover, .contacto__form-der textarea:hover, .contacto__form-izq input:focus, .contacto__form-der textarea:focus {
         box-shadow: 0 0 7px var(--primary-color);
         border: 2px solid var(--primary-color);
+    }
+
+    .incorrect {
+        box-shadow: 0 0 4px #D32F2F;
+        border: 2px solid #D32F2F !important;
+    }
+
+    .correct {
+        box-shadow: 0 0 4px #388E3C;
+        border: 2px solid #388E3C !important;
+    }
+
+    button:disabled {
+        cursor: not-allowed;
+        border: 2px solid #E57373;
+        background: #E57373;
+    }
+
+    button:enabled {
+        cursor: pointer;
+        border: 2px solid #D32F2F;
+        background: #D32F2F;
     }
 }
