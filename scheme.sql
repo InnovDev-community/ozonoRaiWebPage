@@ -5,7 +5,7 @@ CREATE DATABASE ozono;
 USE ozono;
 
 CREATE TABLE products(
-    id UNSIGNED INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     description_html TEXT NOT NULL,
     image_url TEXT NOT NULL,

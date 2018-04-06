@@ -19,7 +19,7 @@
                         <p class="detalle__avenida">Av. Vallejo 558 Urb. Palermo</p>
                         <p class="detalle__telefono">T. (044) 204 225 - Celular: 950951451</p>
                     </div>
-                    
+
                 </div>
                 <div class="detalle">
                     <div class="icon-mail"></div>
@@ -32,17 +32,17 @@
                 <h2>FORMULARIO DE CONTACTOS</h2>
                 <div class="contenido">
                     <div class="contacto__form-izq">
-                        <input id="id-nombre"  type="text" name="txtNombre" placeholder="Nombre" required><span id="id-nombre-span" class="span-nombre"></span>
-                        <input id="id-tel" type="text" name="txtTelefono" placeholder="Teléfono" required><span id="id-tel-span" class="span-tel"></span>
-                        <input id="id-email" type="email" name="txtEmail" placeholder="E-Mail" required><span id="id-email-span" class="span-email"></span>
+                        <input id="id-nombre"  type="text" name="txtNombre" placeholder="Nombre" pattern="([a-zA-Z]+ )*[a-zA-Z]+" required><span id="id-nombre-span" class="span-nombre"></span>
+                        <input id="id-tel" type="text" name="txtTelefono" placeholder="Teléfono" pattern="[0-9]{6,9}" required><span id="id-tel-span" class="span-tel"></span>
+                        <input id="id-email" type="email" name="txtEmail" placeholder="E-Mail" pattern="[a-zA-Z0-9]+([._-]?[a-zA-Z0-9]+)*@[a-z]+(.[a-z]+)*" required><span id="id-email-span" class="span-email"></span>
                     </div>
                     <div class="contacto__form-der">
                         <textarea id="id-mensaje" name="txtMensaje" placeholder="Mensaje o solicitar pedidos" required></textarea><span id="id-mensaje-span" class="span-mensaje"></span>
                         <button id="id-boton" name="btnEnviar" disabled>Enviar<span class="icon-paper-plane"></span></button>
                     </div>
                 </div>
-                
-                
+
+
 
                 <?php
 
@@ -80,5 +80,7 @@
         </section>
         <?php include_once "components/comp.footer.php" ?>
     </main>
+
+    <script src="<?php echo RUTA_JS . "validacion.js" ?>"></script>
 </body>
 </html>
