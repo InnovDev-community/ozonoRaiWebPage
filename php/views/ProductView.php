@@ -23,8 +23,8 @@
             <section class="producto__contenedor">
                 <img src="<?php echo RUTA_IMG . "productos/normal/". $product["image_url"] ?>" alt="<?php echo $product["name"] ?>">
                 <div class="producto__detalles_titulo">
-                    <span class="icon-angle-double-right"></span>
-                    <h1><?php echo $product['name'] ?></h1>
+                    
+                    <h1><span class=".icon-angle-1 icon-angle-double-right"></span><?php echo $product['name'] ?></h1>
                     <div class="producto__detalles_parrafos">
                         <header id="menu">
                             <a class="menu__item" href="#" title="Descripción" data-seccion="contenido__descripcion">
@@ -46,7 +46,7 @@
                 </div>
                 <!-- <div class="caja-pedido"> -->
                     <a class="pedido" href="<?php echo RUTA_CONTACTO ?>">
-                        Hacer <span>pedido</span>
+                    <span class=".icon-angle-2 icon-angle-double-right"></span>Hacer <span>pedido</span>
                     </a>
                 <!-- </div> -->
             </section>

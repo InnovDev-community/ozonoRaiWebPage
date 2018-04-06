@@ -7,7 +7,11 @@
     justify-content: center;
 }
 
-.icon-angle-double-right{
+.icon-angle-1{
+    display: none;
+}
+
+.icon-angle-2{
     display: none;
 }
 
@@ -66,12 +70,6 @@
     border-radius: 10px;
 
 }
-/* .caja-pedido {
-    width:100%;
-    background: #D32F2F;
-    border: 1px solid #D32F2F;
-    margin: 0 auto;
-} */
 
 
 div > img {
