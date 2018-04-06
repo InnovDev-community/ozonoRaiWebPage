@@ -20,6 +20,7 @@
 
 }
 
+
 .inicio {
     overflow-x: hidden;
     background-color: var(--primary-color);
@@ -96,9 +97,17 @@
     transform: translateY(80%);
 }
 
+@keyframes animacion_producto-1{
+    0% { visibility: hidden;}
+    68%{ visibility: hidden;}
+    79%{ visibility: visible;}
+    85%{visibility: hidden;}
+}
+
 .slide__imagen-producto-1 {
     bottom: 15%;
     left: 5%;
+    animation: 15s animacion_producto-1 infinite;
 }
 
 .slide__imagen-producto-2 {
