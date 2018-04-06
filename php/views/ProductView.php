@@ -36,10 +36,18 @@
                         </header>
                         <div id="contenido">
                             <div id="contenido__descripcion">
-                                <?php echo $product['description_html'] ?>
+                                <!-- <?php echo $product['description_html'] ?> -->
+                                <ul>
+                                    <li>Hecho en Acero Inoxidable (18-8).</li>
+                                    <li>Caño Fijo.</li>
+                                    <li>Medidas: 31cm. x 21cm. x 14 cm.</li>
+                                </ul>
                             </div>
                             <div id="contenido__video">
-                                <?php echo $product['video_html'] ?>
+                                <!-- <?php echo $product['video_html'] ?> -->
+                                <div>
+                                    <iframe width="350" height="180" src="https://www.youtube.com/embed/oCiPeNQmkzQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
