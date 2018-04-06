@@ -19,40 +19,43 @@
 <body>
     <main class="con-principal">
         <?php include_once "pages/components/comp.header.php" ?>
-        <section class="cuerpo producto">
+        <section class="cuerpo detalle_producto">
             <section class="producto__contenedor">
-                <div>
-                    <img src="<?php echo RUTA_IMG . "productos/normal/". $product["image_url"] ?>" alt="<?php echo $product["name"] ?>">
-                    <div class="producto__detalles">
-                        <h1><?php echo $product['name'] ?></h1>
-                        <div>
-                            <header id="menu">
-                                <a class="menu__item" href="#" title="Descripción" data-seccion="contenido__descripcion">
-                                    Descripción
-                                </a>
-                                <a class="menu__item" href="#" title="Vídeo" data-seccion="contenido__video">
-                                    Video
-                                </a>
-                            </header>
-                            <div id="contenido">
-                                <div id="contenido__descripcion">
-                                    <?php echo $product['description_html'] ?>
-                                </div>
-                                <div id="contenido__video">
-                                    <?php echo $product['video_html'] ?>
-                                </div>
+                <img src="<?php echo RUTA_IMG . "productos/normal/". $product["image_url"] ?>" alt="<?php echo $product["name"] ?>">
+                <div class="producto__detalles_titulo">
+                    <span class="icon-angle-double-right"></span>
+                    <h1><?php echo $product['name'] ?></h1>
+                    <div class="producto__detalles_parrafos">
+                        <header id="menu">
+                            <a class="menu__item" href="#" title="Descripción" data-seccion="contenido__descripcion">
+                                Descripción
+                            </a>
+                            <a class="menu__item" href="#" title="Vídeo" data-seccion="contenido__video">
+                                Video
+                            </a>
+                        </header>
+                        <div id="contenido">
+                            <div id="contenido__descripcion">
+                                <?php echo $product['description_html'] ?>
+                            </div>
+                            <div id="contenido__video">
+                                <?php echo $product['video_html'] ?>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a class="pedido" href="<?php echo RUTA_CONTACTO ?>">
-                    Hacer <span>pedido</span>
-                </a>
+                <!-- <div class="caja-pedido"> -->
+                    <a class="pedido" href="<?php echo RUTA_CONTACTO ?>">
+                        Hacer <span>pedido</span>
+                    </a>
+                <!-- </div> -->
             </section>
             <section class="producto__otros-productos">
                 <?php foreach ($more_products as $more): ?>
                     <a href="<?php echo RUTA_PRODUCTOS . $more['id']. "/" . str_replace(' ', '_', $more['name']) ?>" class="otro-producto">
-                        <img src="<?php echo RUTA_IMG . "productos/min/min_". $more["image_url"] ?>" alt="<?php echo $more["name"] ?>">
+                        <figure class="otro-producto-imagen">
+                            <img src="<?php echo RUTA_IMG . "productos/min/min_". $more["image_url"] ?>" alt="<?php echo $more["name"] ?>">
+                        </figure>
                         <p><?php echo $more['name'] ?></p>
                     </a>
                 <?php endforeach; ?>

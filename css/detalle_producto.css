@@ -1,0 +1,127 @@
+.detalle_producto {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-angle-double-right{
+    display: none;
+}
+
+.producto__detalles_titulo {
+    width: 100%;
+    background: #D32F2F;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D32F2F;
+}
+
+.producto__detalles_titulo h1{
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    font-size: var(--big-size);
+    padding: 10px;
+}
+
+.producto__contenedor {
+    color: white;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(161, 226, 226),#FFFFFF);
+}
+
+.producto__contenedor img{
+    width: 75%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.menu__item{
+    text-decoration: none;
+    color: white;
+}
+
+.pedido {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: var(--medium-size);
+    width: 50%;
+    max-width: 180px;
+    background: #D32F2F;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0 0 10px black;
+    transform: translateY(-50%);
+    z-index: 100;
+    border-radius: 10px;
+
+}
+/* .caja-pedido {
+    width:100%;
+    background: #D32F2F;
+    border: 1px solid #D32F2F;
+    margin: 0 auto;
+} */
+
+
+div > img {
+    width: 90%;
+    margin: auto;
+}
+
+.producto__otros-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding-top:68px;
+    transform: translateY(-9.5%);
+}
+
+.otro-producto {
+    box-shadow: 0 0 10px black;
+    margin: 0 10px 20px;
+    position: relative;
+    width: 285px;
+    text-decoration: none;
+    color:white;
+
+}
+
+.otro-producto-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle,#FFFFFF,#FFFFFF,rgb(161, 226, 226));
+    height: 150px;
+}
+
+
+.otro-producto p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: 0;
+    /* background: #D32F2F; */
+    background: var(--primary-color);
+    font-weight: bold;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    
+}
