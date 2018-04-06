@@ -1,5 +1,37 @@
 @import url(cuerpo-media.css);
 
+@media(min-width:640px) {
+    .productos__extra{
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .otro_producto {
+        width:50%;
+        height: 340px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        background: linear-gradient(to right,#0099ff,#003399);
+    }
+
+    .informacion {
+        width: 50%;
+        height: 340px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        background: linear-gradient(to right,#0099ff,#003399);
+    }
+
+    [class^="info__"] {
+        width: 100%;
+    }
+
+    [class^="info__"] p {
+        max-width:315px;
+        margin: 15px auto;
+    }
+}
+
 @media(min-width:920px) {
     .productos {
         color: black;
