@@ -99,9 +99,50 @@
 
 @keyframes animacion_producto-1{
     0% { visibility: hidden;}
-    68%{ visibility: hidden;}
-    79%{ visibility: visible;}
-    85%{visibility: hidden;}
+    66%{ visibility: hidden;}
+    66.1%{ visibility: visible;
+         left:-22%;}
+    70%{ left: 5%};
+}
+
+@keyframes animacion_producto-2{
+    0% { visibility: hidden;}
+    66%{ visibility: hidden;}
+    66.1%{ visibility: visible;
+         left:-22%;
+         bottom: 120%;}
+    70%{ bottom: 120%;
+         left: 20%;};
+}
+
+@keyframes animacion_producto-3{
+    0% { visibility: hidden;}
+    66%{ visibility: hidden;}
+    66.1%{ visibility: visible;
+         left:-22%;
+         bottom: 15%;}
+    70%{ bottom: 15%;
+         left: 40%;};
+}
+
+@keyframes animacion_producto-4{
+    0% { visibility: hidden;}
+    66%{ visibility: hidden;}
+    66.1%{ visibility: visible;
+         left:122%;
+         bottom: 120%;}
+    70%{ bottom: 120%;
+         left: 60%;};
+}
+
+@keyframes animacion_producto-5{
+    0% { visibility: hidden;}
+    66%{ visibility: hidden;}
+    66.1%{ visibility: visible;
+         left:122%;
+         bottom: 15%;}
+    70%{ bottom: 15%;
+         left: 78%;};
 }
 
 .slide__imagen-producto-1 {
@@ -113,18 +154,22 @@
 .slide__imagen-producto-2 {
     bottom: 120%;
     left: 20%;
+    animation: 15s animacion_producto-2 infinite;
 }
 
 .slide__imagen-producto-3 {
     bottom: 15%;
     left: 40%;
+    animation: 15s animacion_producto-3 infinite;
 }
 
 .slide__imagen-producto-4 {
     bottom: 120%;
     left: 60%;
+    animation: 15s animacion_producto-4 infinite;
 }
 .slide__imagen-producto-5 {
     bottom: 15%;
     left: 78%;
+    animation: 15s animacion_producto-5 infinite;
 }
