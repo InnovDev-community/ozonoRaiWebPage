@@ -19,20 +19,20 @@ $('input').keyup(function() {
 
     if (pattern.test(value)) {
         $(this).removeClass('incorrect')
-		$(this).addClass('correct')
+        $(this).addClass('correct')
 
-		span.removeClass("icon-cancel")
-		span.addClass("icon-ok")
+        span.removeClass("icon-cancel")
+        span.addClass("icon-ok")
 
 		inputs[id] = true
     } else {
         $(this).removeClass('correct')
-		$(this).addClass('incorrect')
+        $(this).addClass('incorrect')
 
-		span.removeClass("icon-ok")
-		span.addClass("icon-cancel")
+        span.removeClass("icon-ok")
+        span.addClass("icon-cancel")
 
-		inputs[id] = false
+        inputs[id] = false
     }
 
     validar_inputs()
