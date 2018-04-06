@@ -94,8 +94,6 @@
         border-bottom-right-radius: 15px;   
     }
 
-
-
     .otro-producto:after/* , .otro-producto-imagen:after */{
         position:absolute;
         content:'';
