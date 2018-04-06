@@ -22,7 +22,7 @@
         border-left: 7px solid #ffcc00;
         width: 74%;
         height: 96%;
-        background: linear-gradient(rgb(161, 226, 226),#FFFFFF);
+        background: linear-gradient(rgb(104, 201, 214),#FFFFFF);
         position:absolute;
         left: 1%
 
@@ -32,12 +32,7 @@
         
         background: transparent;
         border: 1px solid transparent;
-        /* width: 520px;;
-        position: absolute;
-        left: 150px;
-        bottom: 150px;
-        height: 300px;
-        color: black; */
+
         width:55%;
         height: 100%;
         display:flex;
@@ -64,10 +59,6 @@
         width: 45%;
         padding-left: 10px;
         align-self: flex-end;
-        /* width: 280px;
-        position: absolute;
-        left: 10%;
-        bottom: 8%; */
     }
 
     .producto__otros-productos {
@@ -79,8 +70,6 @@
         padding-top:0;
         transform: translateY(0);
     }
-
-    
 
     .otro-producto {
         box-shadow: 0 0 10px transparent;
@@ -103,8 +92,7 @@
         align-items: center;
         justify-content: flex-start;
         border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        
+        border-bottom-right-radius: 15px;   
     }
 
     .otro-producto-imagen img {
