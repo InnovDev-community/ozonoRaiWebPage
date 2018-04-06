@@ -32,13 +32,13 @@
                 <h2>FORMULARIO DE CONTACTOS</h2>
                 <div class="contenido">
                     <div class="contacto__form-izq">
-                        <input  type="text" name="txtNombre" placeholder="Nombre" required><span class="icon-ok span-nombre"></span>
-                        <input  type="text" name="txtTelefono" placeholder="Teléfono" required><span class="icon-ok span-tel"></span>
-                        <input type="email" name="txtEmail" placeholder="E-Mail" required><span class="icon-cancel span-email"></span>
+                        <input id="id-nombre"  type="text" name="txtNombre" placeholder="Nombre" required><span id="id-nombre-span" class="span-nombre"></span>
+                        <input id="id-tel" type="text" name="txtTelefono" placeholder="Teléfono" required><span id="id-tel-span" class="span-tel"></span>
+                        <input id="id-email" type="email" name="txtEmail" placeholder="E-Mail" required><span id="id-email-span" class="span-email"></span>
                     </div>
                     <div class="contacto__form-der">
-                        <textarea name="txtMensaje" placeholder="Mensaje o solicitar pedidos" required></textarea><span class="icon-ok"></span>
-                        <button name="btnEnviar" disabled>Enviar<span class="icon-paper-plane"></span></button>
+                        <textarea id="id-mensaje" name="txtMensaje" placeholder="Mensaje o solicitar pedidos" required></textarea><span id="id-mensaje-span" class="span-mensaje"></span>
+                        <button id="id-boton" name="btnEnviar" disabled>Enviar<span class="icon-paper-plane"></span></button>
                     </div>
                 </div>
                 
