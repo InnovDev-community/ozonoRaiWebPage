@@ -56,9 +56,6 @@
     background: radial-gradient(circle,#FFFFFF,#FFFFFF,rgb(161, 226, 226));
 }
 
-
-
-
 .producto__nombre {
     display: flex;
     justify-content: center;
