@@ -88,4 +88,42 @@
         border: 2px solid #D32F2F;
         background: #D32F2F;
     }
+
+    .icon-ok {
+        font-size:var(--medium-size);
+        color:#388E3C;
+    }
+
+    .icon-cancel {
+        font-size:var(--medium-size);
+        color: #D32F2F;
+    }
+
+    .contacto__form-izq, .contacto__form-der{
+        position: relative;
+    }
+
+    .contacto__form-izq .span-nombre {
+        position:absolute;
+        right: 5.5%;
+        top: 6.5%;
+    }
+
+    .contacto__form-izq .span-tel {
+        position:absolute;
+        right: 5.5%;
+        top: 40%;
+    }
+
+    .contacto__form-izq .span-email {
+        position:absolute;
+        right: 5.5%;
+        top: 74%;
+    }
+
+    .contacto__form-der .icon-ok {
+        position:absolute;
+        right: 5.5%;
+        top: 51%;
+    }
 }
