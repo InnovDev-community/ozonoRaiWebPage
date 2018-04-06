@@ -24,7 +24,7 @@ $('input').keyup(function() {
         span.removeClass("icon-cancel")
         span.addClass("icon-ok")
 
-		inputs[id] = true
+        inputs[id] = true
     } else {
         $(this).removeClass('correct')
         $(this).addClass('incorrect')
