@@ -93,9 +93,8 @@ iframe {
     align-items: center;
     justify-content: center;
     background-color: #E57373;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
+
 
 .menu__item-selected {
     background-color: #D32F2F;
@@ -104,6 +103,13 @@ iframe {
     border-top-right-radius: 10px; */
 }
 
+.menu-izq{
+    border-top-left-radius: 10px;
+}
+
+.menu-der{
+    border-top-right-radius: 10px;
+}
 
 .producto__detalles_titulo h1{
     text-align: center;

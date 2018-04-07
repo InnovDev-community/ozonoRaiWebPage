@@ -23,10 +23,10 @@
                     <h1><span class=".icon-angle-1 icon-angle-double-right"></span><?php echo $product['name'] ?></h1>
                     <div class="producto__detalles_parrafos">
                         <header id="menu">
-                            <a class="menu__item" href="#" title="Descripción" data-seccion="contenido__descripcion">
+                            <a class="menu__item menu-izq" href="#" title="Descripción" data-seccion="contenido__descripcion">
                                 Descripción
                             </a>
-                            <a class="menu__item" href="#" title="Vídeo" data-seccion="contenido__video">
+                            <a class="menu__item menu-der" href="#" title="Vídeo" data-seccion="contenido__video">
                                 Video
                             </a>
                         </header>
