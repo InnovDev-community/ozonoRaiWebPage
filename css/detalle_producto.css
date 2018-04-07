@@ -59,7 +59,7 @@
     line-height: 1.45;
     text-align: left;
     background: #fff;
-    box-shadow: 0 2px 10px rgb(175,175,175)
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.705);
 }
 
 #contenido ul{
@@ -91,12 +91,13 @@ iframe {
     background-color: #E57373;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-/*     box-shadow: 0 -2px 8px black; */
+    
 
 }
 
 .menu__item-selected {
     background-color: #D32F2F;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.541);
 /*     border-top-left-radius: 10px;
     border-top-right-radius: 10px; */
 }
