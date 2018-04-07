@@ -36,20 +36,20 @@
         
         background: transparent;
         border: 1px solid transparent;
-
         width:55%;
+        position: absolute;
         height: 100%;
+        right: 0;
     }
 
     .menu__item{
         background: linear-gradient(#97d0f7,#596d92);
-        color: rgb(85, 83, 83);
+        color: #4c6592;
     }
 
     .menu__item-selected {
         background: linear-gradient(#0099ff,#003399);
         color:white;
-        /* box-shadow: 0 -2px 8px transparent; */
     }
 
     #contenido{
@@ -73,6 +73,9 @@
     .producto__contenedor img {
         width: 45%;
         padding-left: 10px;
+        position: absolute;
+        left: 0;
+        transform: scale(.7,.7);
     }
 
     .producto__otros-productos {
