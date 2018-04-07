@@ -9,6 +9,10 @@
 
 @media(min-width:920px){
 
+    .icon-angle-double-right{
+        display: inline-block;
+    }
+
     a{
         text-decoration: none;
     }
@@ -35,11 +39,15 @@
 
         width:55%;
         height: 100%;
-        display:flex;
     }
 
     .menu__item{
         color: black
+    }
+
+    .menu__item-selected {
+        background-color: #ffcc00;
+        color:var(--primary-color);
     }
 
     .producto__detalles_titulo h1{

@@ -10,10 +10,6 @@
         #contenido > div{
             display: none;
         }
-
-        .menu__item-selected{
-            background: red;
-        }
     </style>
 </head>
 <body>
