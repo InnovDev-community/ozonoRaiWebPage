@@ -12,10 +12,10 @@
 @media(min-width:768px) {
     .servicios {
         padding-left: 10%;
-        background: url(../img/servicios/wallpaper_asistente.png), url(../img/servicios/wallpaper_logo_ozono.png), var(--primary-color);
+        background: url(../img/servicios/wallpaper_asistente.png),  var(--primary-color);
         background-repeat: no-repeat;
-        background-position: 100% 100%, 98% 10%;
-        background-size: 260px 305px, 300px 110px, 100%;
+        background-position: 100% 100%;
+        background-size: 260px 305px, 100%;
     }
 }
 

@@ -42,12 +42,19 @@
     }
 
     .menu__item{
-        color: black
+        background: linear-gradient(#97d0f7,#596d92);
+        color: rgb(85, 83, 83);
     }
 
     .menu__item-selected {
-        background-color: #ffcc00;
-        color:var(--primary-color);
+        background: linear-gradient(#0099ff,#003399);
+        color:white;
+        /* box-shadow: 0 -2px 8px transparent; */
+    }
+
+    #contenido{
+        background: transparent;
+        /* box-shadow: 0 2px 10px transparent; */
     }
 
     .producto__detalles_titulo h1{
@@ -161,4 +168,8 @@
         font-weight: bold;
     }
 
+    .producto__detalles_parrafos {
+        top:auto;
+        bottom:15%;
+    }
 }
