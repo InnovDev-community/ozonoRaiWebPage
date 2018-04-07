@@ -60,6 +60,8 @@
     text-align: left;
     background: #fff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.705);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #contenido ul{
@@ -75,6 +77,8 @@
 iframe {
     width: 340px;
     min-width: 340px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 
@@ -91,8 +95,6 @@ iframe {
     background-color: #E57373;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
-
 }
 
 .menu__item-selected {
