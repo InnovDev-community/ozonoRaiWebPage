@@ -1,4 +1,4 @@
-        <header class="cabezera">
+        <header id="cabezera" class="cabezera">
             <a href="<?php echo RUTA_INICIO ?>">
                <img class="logo" src="<?php echo RUTA_IMG."logo.png" ?>" alt="Logo - OzonoRai">        
             </a>
