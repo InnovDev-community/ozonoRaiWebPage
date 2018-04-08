@@ -89,7 +89,7 @@
         background: #D32F2F;
     }
 
-    .icon-ok {
+    /* .icon-ok {
         font-size:var(--medium-size);
         color:#388E3C;
     }
@@ -125,5 +125,5 @@
         position:absolute;
         right: 5.5%;
         top: 51%;
-    }
+    } */
 }
