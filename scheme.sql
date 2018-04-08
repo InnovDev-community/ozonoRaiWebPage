@@ -5,7 +5,7 @@ CREATE DATABASE ozono;
 USE ozono;
 
 CREATE TABLE products(
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     description_html TEXT NOT NULL,
     image_url TEXT NOT NULL,
@@ -21,5 +21,5 @@ CREATE TABLE products(
  ("Modelo Aerodinámico en Acrílico - ABS", "<div>Descripción <h1>4</h1></div>", "modelo_aerodinamico.png", "<div>video <h1>4</h1></div>"),
  ("Ducha aséptica con Ozono", "<div>Descripción <h1>5</h1></div>", "ducha_ozono.png", "<div>video <h1>5</h1></div>"),
  ("Purificador de Aire Doméstico", "<div>Descripción <h1>6</h1></div>", "purificador_aire_domestico.png", "<div>video <h1>6</h1></div>"),
- ("Purificador de Agua Industrial", "<div>Descripción <h1>7</h1></div>", "purificador_agua_industrial.png", "<div>video <h1>7</h1></div>"),
- ("Filtro Plus Americano", "<div>Descripción <h1>8</h1></div>", "filtro_purificador.png", "<div>video <h1>8</h1></div>");
+ ("Purificador de Agua Industrial", "<div>Descripción <h1>7</h1></div>", "purificador_agua_industrial.png", "<div>video <h1>7</h1></div>");
+ -- ("Filtro Plus Americano", "<div>Descripción <h1>8</h1></div>", "filtro_purificador.png", "<div>video <h1>8</h1></div>");
