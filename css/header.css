@@ -27,7 +27,8 @@
 }
 
 .icon-menu {
-    color: var(--primary-color); 
+    color: #D32F2F; 
+    /* color: var(--primary-color);  */
     font-size: var(--big-size);
     cursor: pointer;
 }
@@ -46,9 +47,10 @@
 .lista-secciones__item {
     display: flex;
     height: 45px;
-    background: var(--primary-color);
+    background: #D32F2F;
+    /* background: var(--primary-color); */
     /* opacity: 0.8; */
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(168, 165, 165);
     font-size: var(--small-size);
     
 }
