@@ -20,7 +20,7 @@
                 <img src="<?php echo RUTA_IMG . "productos/normal/". $product["image_url"] ?>" alt="<?php echo $product["name"] ?>">
                 <div class="producto__detalles_titulo">
                     
-                    <h1><span class=".icon-angle-1 icon-angle-double-right"></span><?php echo $product['name'] ?></h1>
+                    <h1><div class="icon-angle-1"><span class="icon-angle-double-right"></span></div><div class="nombre-h1"><?php echo $product['name'] ?></div></h1>
                     <div class="producto__detalles_parrafos">
                         <header id="menu">
                             <a class="menu__item menu-izq" href="#" title="Descripción" data-seccion="contenido__descripcion">
@@ -34,6 +34,13 @@
                             <div id="contenido__descripcion">
                                 <!-- <?php echo $product['description_html'] ?> -->
                                 <ul>
+                                    <li class="li_descripcion">
+                                        El peligro de propagación de enefermedades por médio del aire aumenta cuando varias 
+                                        personas se mueven en ambientes mal ventilados. El equipo ozonizador elimina malos olores 
+                                        y purifica el ambiente saturado por toxinas dejando el aire saludables y fresco, al realizar 
+                                        una acción antimicrobiana que elimina toda clase de bacterias, virus, microorganismos patógenos 
+                                        casuantes de enfermedades como bronquitis, alergias y procesos asmáticos. 
+                                    </li>
                                     <li>Hecho en Acero Inoxidable (18-8).</li>
                                     <li>Caño Fijo.</li>
                                     <li>Medidas: 31cm. x 21cm. x 14 cm.</li>
