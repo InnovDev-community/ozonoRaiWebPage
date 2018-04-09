@@ -32,25 +32,10 @@
                         </header>
                         <div id="contenido">
                             <div id="contenido__descripcion">
-                                <!-- <?php echo $product['description_html'] ?> -->
-                                <ul>
-                                    <li class="li_descripcion">
-                                        El peligro de propagación de enefermedades por médio del aire aumenta cuando varias 
-                                        personas se mueven en ambientes mal ventilados. El equipo ozonizador elimina malos olores 
-                                        y purifica el ambiente saturado por toxinas dejando el aire saludables y fresco, al realizar 
-                                        una acción antimicrobiana que elimina toda clase de bacterias, virus, microorganismos patógenos 
-                                        casuantes de enfermedades como bronquitis, alergias y procesos asmáticos. 
-                                    </li>
-                                    <li>Hecho en Acero Inoxidable (18-8).</li>
-                                    <li>Caño Fijo.</li>
-                                    <li>Medidas: 31cm. x 21cm. x 14 cm.</li>
-                                </ul>
+                                <?php echo $product['description_html'] ?>                               
                             </div>
                             <div id="contenido__video">
-                                <!-- <?php echo $product['video_html'] ?> -->
-                                <div>
-                                    <iframe width="350" height="180" src="https://www.youtube.com/embed/oCiPeNQmkzQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                </div>
+                                <?php echo $product['video_html'] ?>
                             </div>
                         </div>
                     </div>
